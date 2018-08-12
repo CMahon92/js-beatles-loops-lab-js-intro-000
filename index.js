@@ -20,17 +20,24 @@ var i = 0;
    return array;
 }
 
-function iLoveTheBeatles(param) {
-  var emptyArray = [];
-  var i = 0;
+// function iLoveTheBeatles(param) {
+//   var emptyArray = [];
+//   var i = 0;
+//
+//   do {
+//     // iLoveTheBeatles(param);
+//     emptyArray.push('I love the Beatles!')
+//     i = i + 1;
+//   }while (i <= param && !(param >= 17)  );
+//
+//   return emptyArray
+// }
 
-
-  do {
-    // iLoveTheBeatles(param);
-    emptyArray.push('I love the Beatles!')
-    i = i + 1;
-  }while (i <= param && !(param >= 17)  );
-
-
-  return emptyArray
+function iLoveTheBeatles(param){
+var emptyArray=[];
+do{
+param++;
+emptyArray.push("I love the Beatles!");
+}while (param < 15);
+return emptyArray;
 }
